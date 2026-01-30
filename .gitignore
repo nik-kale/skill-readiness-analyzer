@@ -42,3 +42,5 @@ htmlcov/
 
 *.log
 .DS_Store
+*.tape
+*.mp4

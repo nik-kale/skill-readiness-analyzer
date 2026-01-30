@@ -8,18 +8,19 @@
 
 > Beyond security: Ensure your skills are production-ready, efficient, and follow best practices.
 
+![Demo](demo.gif)
+
 ## Why Skill Readiness Analyzer?
 
-Security scanners catch malicious code. But **production-ready** skills need more:
+Security scanning catches malicious code. **Readiness scanning** ensures skills are production-quality:
 
-| Security Scanner (skill-scanner) | Readiness Analyzer (this tool)       |
-| -------------------------------- | ------------------------------------ |
-| Detects malicious code           | Validates best practices             |
-| Finds prompt injection           | Checks token efficiency              |
-| Identifies data exfiltration     | Ensures cross-platform compatibility |
-| Security-focused                 | Operations-focused                   |
+- **Token Efficiency** - Keep skills under context limits
+- **Best Practices** - Follow Anthropic/Cursor guidelines
+- **Cross-Platform** - Work on Claude, Cursor, Codex, and more
+- **Documentation Quality** - Clear descriptions and triggers
+- **Script Reliability** - Error handling in utility scripts
 
-**Use both** for comprehensive skill quality gates.
+> **Complementary to security scanning**: This tool focuses on operational quality and best practices. For security analysis (prompt injection, data exfiltration, malicious code), use dedicated security scanners.
 
 ## Quick Start
 
@@ -288,8 +289,13 @@ Contributions welcome! Areas of interest:
 
 MIT License - see [LICENSE](LICENSE) for details.
 
-## Related Projects
+## Ecosystem
 
-- [skill-scanner](https://github.com/cisco-ai-defense/skill-scanner) - Security scanner for Agent Skills
-- [mcp-scanner](https://github.com/cisco-ai-defense/mcp-scanner) - Security scanner for MCP servers
-- [mcp-readiness-scanner](https://github.com/nik-kale/mcp-readiness-scanner) - Operational readiness for MCP tools
+This tool is part of a broader quality ecosystem for AI agents:
+
+| Tool                                                                       | Focus                   | Use Case                                  |
+| -------------------------------------------------------------------------- | ----------------------- | ----------------------------------------- |
+| **skill-readiness-analyzer**                                               | Operational quality     | Best practices, efficiency, compatibility |
+| [mcp-readiness-scanner](https://github.com/nik-kale/mcp-readiness-scanner) | MCP operational quality | Production readiness for MCP tools        |
+
+For security-focused analysis of Agent Skills and MCP servers, the community has developed dedicated security scanning tools.
